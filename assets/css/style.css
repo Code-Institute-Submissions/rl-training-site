@@ -1,24 +1,28 @@
+/* Site Cosmetics */
 
 body {
     margin:0;
     padding:0;
-    background: #062c7f;
+    background-image: url('/assets/images/rl-background.jpg');
+    color: #fafafa;
 }
 
 .menu-background {
-    background: #083aa5;
-    margin: 0 0 50px;
+    background: black;
+    margin: 0 0 0px;
 }
 
+/* NAVIGATION */
+
 #nav {
-    height: 3.2em;
+    height: 50px;
     width: 550px;
     margin: 0 auto;
     list-style: none;
 }
 
 #nav li {
-    align: center;
+    text-align: center;
     display: inline-block;
 }
 
@@ -26,29 +30,52 @@ body {
     display: block;
     text-align: center;
     color: #fafafa;
-    height: 3.2em;
+    height: 30px;
     width: 150px;
-    line-height: 3.2em;
+    line-height: 52px;
     text-decoration: none; 
     font-weight: bold;
 }
 #nav a:hover {
-    background: rgb(12, 88, 252);
+    background: black;
     color: #fff;
+    border-bottom: 2px solid #fafafa;
+    line-height: 35px;
 }
-.videos {
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
+    background-color: black;
+    color: #fafafa;
+    text-align: center;
+    min-height: 30px;
+}
+
+.footer p {
+    font-size: 10px;
+    line-height: 40px;
+}
+
+/* VIDEO STYLING */
+
+.blackground {
+    padding-top: 0px;
+    background: rgba(0, 0, 0, 0.2);
     height: 100%;
 }
 
-.video-items {
-    box-sizing: border-box;
-    padding: 25px;
-    padding-left: 225px;
+.inline {
     float: left;
-    width: 50%;
-    height: 50%;
+    line-height: 150px;
+    text-align: justify;
+    padding-top: 50px;
 }
+
 
 
 // Small devices (landscape phones, 576px and up)
