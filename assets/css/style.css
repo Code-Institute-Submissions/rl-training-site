@@ -63,18 +63,23 @@ body {
 
 /* VIDEO STYLING */
 
-.blackground {
-    padding-top: 0px;
+.blackground {  
     background: rgba(0, 0, 0, 0.2);
-    height: 100%;
 }
 
-.inline {
-    float: left;
-    line-height: 150px;
-    text-align: justify;
-    padding-top: 50px;
+/* .col-4 {
+    padding-left: 400px;
+    padding-top: 100px;
 }
+
+.col-6 {
+    padding-left: 300px;
+    line-height: 400px;
+}
+
+.center-line {
+    line-height: 150px;
+} */
 
 
 
