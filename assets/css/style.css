@@ -1,4 +1,55 @@
 
+body {
+    margin:0;
+    padding:0;
+    background: #062c7f;
+}
+
+.menu-background {
+    background: #083aa5;
+    margin: 0 0 50px;
+}
+
+#nav {
+    height: 3.2em;
+    width: 550px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li {
+    align: center;
+    display: inline-block;
+}
+
+#nav a {
+    display: block;
+    text-align: center;
+    color: #fafafa;
+    height: 3.2em;
+    width: 150px;
+    line-height: 3.2em;
+    text-decoration: none; 
+    font-weight: bold;
+}
+#nav a:hover {
+    background: rgb(12, 88, 252);
+    color: #fff;
+}
+.videos {
+    width: 100%;
+    height: 100%;
+}
+
+.video-items {
+    box-sizing: border-box;
+    padding: 25px;
+    padding-left: 225px;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
