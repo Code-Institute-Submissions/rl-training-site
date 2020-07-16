@@ -5,7 +5,8 @@ body {
     padding:0;
     background-image: url('/assets/images/rl-background.jpg');
     color: #fafafa;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .menu-background {
@@ -62,7 +63,7 @@ body {
     bottom: 0px;
     width: 100%;
     background-color: black;
-    color: black;
+    color: rgb(243, 243, 243);
     text-align: center;
     font-size: 8px;
 }
