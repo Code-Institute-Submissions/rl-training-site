@@ -14,13 +14,29 @@ body {
     margin: 0 0 0px;
 }
 
-.spacer {
-    min-height: 45px
+.active {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(243, 243, 243);
+    margin-top: 3px;
 }
 
-.blackground {  
+.spacer {
+    min-height: 45px;
+}
+
+.large-spacer {
+    min-height: 170px;
+}
+
+.blackground-light {  
     background: rgba(0, 0, 0, 0.3);
 }
+
+.blackground-dark {
+    background: rgba(0, 0, 0, 0.6);
+}
+
 
 /* NAVIGATION */
 
@@ -65,7 +81,11 @@ body {
     background-color: black;
     color: rgb(243, 243, 243);
     text-align: center;
-    font-size: 8px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    font-size: 10px;
 }
 
 /* VIDEO STYLING */
@@ -97,7 +117,42 @@ p {
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
 }
+
+.form-group {
+    color: rgb(243, 243, 243);
+    text-align: left;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.form-group small {
+    color: rgb(243, 243, 243);
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.form-group input {
+    text-align: left;
+}
+
+.btn-outline-secondary {
+    color: black;
+    text-align: center;
+    background: rgb(243, 243, 243);
+    font-weight: 500;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.btn-outline-secondary:hover {
+    background: black;
+    color: rgb(243, 243, 243);
+    font-weight: 500;
+    border: 1px solid black;
+}
+
 
 
 
