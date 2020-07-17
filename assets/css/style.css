@@ -9,13 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-.active {
-    text-decoration: none;
-    color: rgb(243, 243, 243);
-    border-bottom: 1px solid rgb(243, 243, 243);
-    margin-top: 3px;
-}
-
 .spacer {
     min-height: 45px;
 }
@@ -35,35 +28,10 @@ body {
 
 /* NAVIGATION */
 
-.nav {
-    background: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99999;
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nav a {
-    letter-spacing: 1.5px;
-    color: rgb(243, 243, 243);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.nav li {
-    padding-right: 40px;
-}
-
-.nav a:hover {
+.active {
     text-decoration: none;
     color: rgb(243, 243, 243);
     border-bottom: 1px solid rgb(243, 243, 243);
-    margin-top: 3px;
 }
 
 /* FOOTER */
@@ -105,7 +73,7 @@ p {
     margin-top: 3px;
 }
 
-/* FORM */
+/* FORM (SUBMIT) */
 
 .form {
     padding-top: 50px;
