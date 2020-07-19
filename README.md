@@ -48,30 +48,27 @@ Existing Features:
 
 
 Technologies used to create this website:
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-	- Building the basic structure of the website, the very core of the site.
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-	- Styling the website in conjunction with Bootstrap.
-- [Bootstrap 4](https://getbootstrap.com/)
-	- Assisted in creating the grid system of the website, the table and the submission element.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - Building the basic structure of the website, the very core of the site.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Styling the website in conjunction with Bootstrap.
+- [Bootstrap 4](https://getbootstrap.com/) - Assisted in creating the grid system of the website, the table and the submission element.
 - [Google](https://google.com)
-	- To research, troubleshoot and investigate bugs with the website. 
+- To research, troubleshoot and investigate bugs with the website. 
 - [StackOverflow](https://stackoverflow.com)
-	- Glanced at other peoples problems and how they solved their issues.
+- Glanced at other peoples problems and how they solved their issues.
 - [Notepad++](https://notepad-plus-plus.org/)
-	- Using a client sided text editor for creating the readme and certain code snippets.
+- Using a client sided text editor for creating the readme and certain code snippets.
 - [GitHub](https://github.com/)
-	- Used for deplying, updating, sharing and maintaining the website.
+- Used for deplying, updating, sharing and maintaining the website.
 - [GitPod IDE](https://gitpod.io/)
-	- Could not have developed the website without Gitpod. 
+- Could not have developed the website without Gitpod. 
 - [Chrome](https://www.google.com/chrome/)
-	- Tested various situations by emulating the devices needed to make compatibility. 
+- Tested various situations by emulating the devices needed to make compatibility. 
 - [Apple iPhone 7](https://www.apple.com/)
-	- Tested the mobile website for bugs. 
+- Tested the mobile website for bugs. 
 - [Windows](https://www.microsoft.com/nl-nl/software-download/windows10)
-	- The OS responsible for running each tool. 
+- The OS responsible for running each tool. 
 - [Code Institute Training and Study Materials](https://courses.codeinstitute.net/)
-	- Learning by doing and doing while learning.
+- Learning by doing and doing while learning.
 
 
 Testing:
