@@ -20,7 +20,7 @@ The color-scheme is intended to be darker, so it wont interfere too much when ha
 ### The Wireframe:
 I had one mock-up design in mind at first, overall I stuck to my original idea and adjusted the Showcase only.
 
-Page | Link
+Page | Link to image of wireframe
 ------------ | -------------
 index.html | [index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/index.png)
 training.html | [training](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/training_pack.png)
