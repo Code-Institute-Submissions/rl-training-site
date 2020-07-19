@@ -1,25 +1,15 @@
 /* Site Cosmetics */
 
 body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('/assets/images/rl-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/rl-background.jpg');
     background-repeat: no-repeat;
     color: #fafafa;
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-.spacer {
-    min-height: 45px;
-}
-
-.large-spacer {
-    min-height: 170px;
-}
-
-.desktop-spacer {
-    min-height: 100px;
 }
 
 .blackground-light {  
@@ -31,12 +21,18 @@ body {
 }
 
 .separator {
-        display: none;
-    }
+    display: none;
+}
 
-    .training-padding {
-        padding-top: 100px;
-    }
+.row {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.justify-content-center {
+    padding-top: 25px;
+    padding-bottom: 0;
+}
 
 
 /* NAVIGATION */
@@ -54,7 +50,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
     color: rgb(243, 243, 243);
     text-align: center;
     padding-bottom: 15px;
@@ -70,6 +65,8 @@ body {
 
 iframe {
     padding-left: 0px;
+    width: 480px;
+    height: 360px;
 }
 
 h3 {
@@ -105,7 +102,7 @@ p {
 }
 
 .text-padding {
-    width: 355px;
+    width: 100%;
     height: 240px;
     padding: 10px 10px 10px 10px;
 }
@@ -153,108 +150,56 @@ p {
     border: 1px solid black;
 }
 
-@media (max-width: 280px) {
-
-    .force-left {
-        padding-left: 0px;
-    }
-
-    .text-padding {
-        height: 150px;
-        text-transform: inline;
-        padding: 0px 0px 0px 0px;
-    }
-    
-    iframe {
-        padding-left: 0px;
-    }
-
-    .blackground-light {  
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .blackground-dark {
-        background: rgba(0, 0, 0, 0.6);
-    }
-
+@media (min-width: 280px) and (max-device-width: 280px) {
     body {
-    margin:0;
-    padding:0;
-    background-image: url('/assets/images/rl-background.jpg');
-    background-repeat: no-repeat;
-    color: #fff;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-size: 10px;
+        min-width: 280px;
     }
 
-    h3 {
-        font-size: 15px;
-        padding-left: 5px;
+    .container-fluid {
+        padding-left: 0;
     }
 
-    p {
-        font-size: 10px; 
-        padding-left: 5px;
+    .justify-content-center {
+        padding-top: 25px;
+        padding-bottom: 0;
     }
 
-    .link-style-footer {
-    text-decoration: none;
-    color: #fff;
-    }
-
-    .link-style-footer:hover {
-        text-decoration: none;
-        color: #fff;
-        border-bottom: 1px solid #fff;
-        margin-top: 3px;
-    }
-
-    .footer {
-        position: bottom;
-        min-width: 375px;
-    }
-
-    .container {
-        padding-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 20px;
-    }
-
-    .separator {
-        border-top: 4px solid #fff;
-        border-radius: 1px;
-        width: 75px;
-        padding-bottom: 15px;
-    }
-
-    .spacer-bottom {
-        height: 100px;
-    }
-
-    .large-spacer {
-        display: none;
-    }
-
-    
-}
-
-
-@media (max-width: 720px) {
-
-    .force-left {
-        padding-left: 0px;
+    iframe {
+    padding-left: 0px;
+    width: 280px;
+    height: 157.5px;
     }
 
     .text-padding {
         height: 150px;
         text-transform: inline;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
+    }
+
+@media (min-width: 375px) and (max-device-width: 375px) {
+
+    iframe {
+    padding-left: 0px;
+    width: 375px;
+    height: 210.94px;
+    }
+
+} 
+
+
+
+@media (min-width: 720px) and (max-device-width: 759px) {
+
+    .text-padding {
+        height: 150px;
+        text-transform: inline;
+        padding: 10px 10px 10px 10px;
     }
     
     iframe {
         padding-left: 0px;
+        width: 480px;
+        height: 360px;
     }
 
     .blackground-light {  
@@ -302,13 +247,6 @@ p {
         min-width: 375px;
     }
 
-    .container {
-        padding-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 20px;
-    }
-
     .separator {
         border-top: 4px solid #fff;
         border-radius: 1px;
@@ -316,32 +254,21 @@ p {
         padding-bottom: 15px;
     }
 
-    .spacer {
-        height: 20px;
-    }
-
-    .large-spacer {
-        max-height: 20px;
-    }
-
-    
 }
 
 
-@media (max-width: 768px) {
-
-    .force-left {
-        padding-left: 0px;
-    }
+@media (min-width: 768px) and (max-device-width: 800px) {
 
     .text-padding {
         height: 150px;
         text-transform: inline;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
     }
     
     iframe {
         padding-left: 0px;
+        width: 480px;
+        height: 360px;
     }
 
     .blackground-light {  
@@ -389,13 +316,6 @@ p {
         min-width: 375px;
     }
 
-    .container {
-        padding-top: 100px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 20px;
-    }
-
     .separator {
         border-top: 4px solid #fff;
         border-radius: 1px;
@@ -403,30 +323,25 @@ p {
         padding-bottom: 15px;
     }
 
-    .spacer {
-        height: 20px;
-    }
-
-    .large-spacer {
-        max-height: 100px;
-    }
-    
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-device-width: 1000px) and (max-device-width: 1024px) {
+    
     .text-padding {
         height: 150px;
         text-transform: inline;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
     }
     
     iframe {
         padding-left: 0px;
+        width: 480px;
+        height: 360px;
     }
 
-    .blackground-ipad {  
-        background: rgba(0, 0, 0, 0);
-        padding-left: 25px;
+    .container-fluid {
+        padding-bottom: 0px;
+        text-align: left;
     }
 
     .blackground-dark {
@@ -434,13 +349,14 @@ p {
     }
 
     body {
-    margin:0;
-    padding:0;
-    background-image: url('/assets/images/rl-background.jpg');
-    background-repeat: no-repeat;
-    color: #fff;
-    overflow-y: scroll;
-    overflow-x: hidden;
+        width: 1024px;
+        margin-bottom:-200;
+        padding:0;
+        background-image: url('/assets/images/rl-background.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     h3 {
@@ -467,33 +383,6 @@ p {
 
     .footer {
         min-width: 375px;
-    }
-
-    .container {
-        padding-top: 100px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 20px;
-    }
-
-    .separator {
-        border-top: 4px solid #fff;
-        border-radius: 1px;
-        width: 75px;
-        padding-bottom: 15px;
-        padding-top: 25px;
-    }
-
-    .spacer {
-        min-height: 20px;
-    }
-
-    .ipad-spacer {
-        min-height: 54.5px;
-    }
-
-    .large-spacer {
-        height: 20px;
     }
     
 }
