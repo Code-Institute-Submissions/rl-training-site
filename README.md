@@ -21,7 +21,11 @@ User Stories:
 The Wireframe:
 I had one mock-up design in mind at first, overall I stuck to my original idea and adjusted the Showcase only.
 
-
+Page | Link
+------------ | -------------
+index.html | [index](/assets/images/index.png)
+training.html | [training](/assets/images/training_pack.png)
+submit.html | [submit](/assets/images/submit.png)
 
 Features:
 1. Video Showcase
@@ -44,38 +48,40 @@ Existing Features:
 
 
 Technologies used to create this website:
-- HTML5 https://en.wikipedia.org/wiki/HTML5
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
 	- Building the basic structure of the website, the very core of the site.
-- CSS3  https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 	- Styling the website in conjunction with Bootstrap.
-- Bootstrap 4 https://getbootstrap.com/
+- [Bootstrap 4](https://getbootstrap.com/)
 	- Assisted in creating the grid system of the website, the table and the submission element.
-- Google https://google.com
+- [Google](https://google.com)
 	- To research, troubleshoot and investigate bugs with the website. 
-- StackOverflow https://stackoverflow.com
+- [StackOverflow](https://stackoverflow.com)
 	- Glanced at other peoples problems and how they solved their issues.
-- Notepad++ https://notepad-plus-plus.org/
+- [Notepad++](https://notepad-plus-plus.org/)
 	- Using a client sided text editor for creating the readme and certain code snippets.
-- GitHub https://github.com/
+- [GitHub](https://github.com/)
 	- Used for deplying, updating, sharing and maintaining the website.
-- GitPod IDE https://gitpod.io/
+- [GitPod IDE](https://gitpod.io/)
 	- Could not have developed the website without Gitpod. 
-- Chrome https://www.google.com/chrome/
+- [Chrome](https://www.google.com/chrome/)
 	- Tested various situations by emulating the devices needed to make compatibility. 
-- iPhone 7 https://www.apple.com/
+- [Apple iPhone 7](https://www.apple.com/)
 	- Tested the mobile website for bugs. 
-- Windows 10 https://www.microsoft.com/nl-nl/software-download/windows10
+- [Windows](https://www.microsoft.com/nl-nl/software-download/windows10)
 	- The OS responsible for running each tool. 
-- Code Institute Training and Study Materials https://courses.codeinstitute.net/
+- [Code Institute Training and Study Materials](https://courses.codeinstitute.net/)
 	- Learning by doing and doing while learning.
 
 
 Testing:
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+1. Tested using various mobile emulators on my Windows Machine.
+2. Tested on mobile to ensure the links, layout and scaling works as intended.
+3. Tested using responsive design in the browser on most used breakpoints. 
+4. Had friends and family test the website on their devices and received design feedback.
+6. Ran the CSS validator: https://jigsaw.w3.org/css-validator/#validate_by_input
+7. Ran the HTML Validator: https://validator.w3.org/#validate_by_input
+6. Ran A responsiveness tester online: https://responsivedesignchecker.com/
 
 
 Contact form:
@@ -91,10 +97,13 @@ Bugs and their resolution:
 
 
 Deployment:
-Each update has been to back up my work and progress between my work and office pc at home.
-Ensuring the latest part of the code is available each place, despite sometimes introducing bugs. 
-This unfortunately means I will have to find another way to work than I currently am, potentially running multiple duplicate workspaces or simply only pushing commits that have been completely cleared for bugs. 
-During this project I have pushed 14 commits and learned the hard way that creating valuable messages and keeping consistent is important.
+Ensured all tools were installed, this includes:
+1. Using the GitPod IDE plugin for Chrome.
+2. Installed Notepad++ to keep a local copy.
+3. Ensured Chrome was up to date, latest version installed. Version 84.0.4147.89 (Official Build) (64-bit)
+4. Accessed the Code Institude project template.
+5. Regularly uploaded commits whenever a big change has been made.
+6. Hosting the website on GitHub Pages.
 
 
 Credits:
@@ -181,8 +190,15 @@ https://www.youtube.com/watch?v=PwWHL3RyQgk
 Media:
 Background (4000x2000px)
 Downloaded from: https://www.jakpost.travel/wimages/large/238-2389378_rocket-league-draco-grey.jpg
-Original copyright belongs to Rocket League.
 
+Various content creators on youtube:
+Gpepper         - https://www.youtube.com/channel/UC-d1NAX6MeEYgwMkd6TMEyg
+FusioNine       - https://www.youtube.com/channel/UCOT7Vqfqb2oFl_mMBhDQRVA
+Snap10a         - https://www.youtube.com/channel/UCUCnQu9TR7qEqa52PF7Djaw
+SubParButInHD   - https://www.youtube.com/channel/UCOw0zA-Gf5gpQ6K446mR0wA
+
+Bakkesmod (A Rocket League plugin): 
+https://www.bakkesmod.com/
 
 Sites for inspiration:
 Rocket League (psyonix):
