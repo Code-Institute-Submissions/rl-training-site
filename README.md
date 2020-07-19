@@ -72,7 +72,7 @@ submit.html | [submit](https://github.com/isitaslinky/rl-training-site/blob/mast
     - Results:   [Index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_index.png)
                 [Training Pack](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_training_pack.png)
                 [Submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_submit.png)
-6. Ran an online [responsiveness tester](https://responsivedesignchecker.com/).
+6. Ran an online [responsiveness tester](http://ami.responsivedesign.is/#).
     - Result: [submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
 
 ##What I would like to work on in the future:
