@@ -1,8 +1,13 @@
 /* Site Cosmetics */
 
+html {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
 body {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     margin: 0;
     padding: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/rl-background.jpg');
@@ -35,7 +40,7 @@ body {
 }
 
 
-/* NAVIGATION */
+/* NAVBAR */
 
 .active {
     text-decoration: none;

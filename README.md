@@ -49,7 +49,7 @@ Technologies used to create this website:
 - CSS3  https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 	- Styling the website in conjunction with Bootstrap.
 - Bootstrap 4 https://getbootstrap.com/
-	- Assisted in creating the grid system of the website, the form and the submission element.
+	- Assisted in creating the grid system of the website, the table and the submission element.
 - Google https://google.com
 	- To research, troubleshoot and investigate bugs with the website. 
 - StackOverflow https://stackoverflow.com
@@ -121,6 +121,10 @@ Responsive iframe documentation:
 https://blog.theodo.com/2018/01/responsive-iframes-css-trick/
 - iframe elements, currently in use to ensure the design is responsive on "all" reasonable mobile devices. 280px and up.
 
+Embed respobsive:
+https://getbootstrap.com/docs/4.0/utilities/embed/
+- iframe elements, currently in use as part of the responsive design.
+
 Understanding media min/max width:
 https://stackoverflow.com/questions/13550541/media-min-width-max-width
 - In use at the end of the CSS stylesheet, figuring out how to avoid bugs with bootstrap once a min-width has been declared.
@@ -152,6 +156,10 @@ https://getbootstrap.com/docs/4.0/content/tables/
 Bootstrap toggle menu:
 https://getbootstrap.com/docs/4.0/components/navbar/
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally.
+
+Container sizing:
+https://stackoverflow.com/questions/41174380/how-do-i-make-a-container-fill-the-whole-page-also-to-be-responsive
+- Added to HTML and BODY element.
 
 (Youtube) Create Center Navigation Bar Menu Using CSS Easy Tutorial:
 https://www.youtube.com/watch?v=HwXN4fiCxno
