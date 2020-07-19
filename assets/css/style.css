@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/rl-background.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     color: #fafafa;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -67,10 +67,6 @@ body {
 }
 
 /* VIDEO STYLING */
-
-iframe {
-    padding-left: 0px;
-}
 
 h3 {
     font-size: 18px;
@@ -156,6 +152,7 @@ p {
 @media (min-width: 280px) and (max-device-width: 280px) {
     body {
         min-width: 280px;
+        background-size: cover;
     }
 
     .container-fluid {
@@ -207,7 +204,7 @@ p {
     margin:0;
     padding:0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/rl-background.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -258,8 +255,8 @@ p {
         padding: 10px 10px 10px 10px;
     }
     
-    iframe {
-        padding-left: 0px;
+    .embed-responsive-item {
+        padding-left: 200px;
     }
 
     .blackground-light {  
@@ -274,7 +271,7 @@ p {
     margin:0;
     padding:0;
     background-image:url('/assets/images/rl-background.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -326,8 +323,6 @@ p {
     
     iframe {
         padding-left: 0px;
-        width: 640px;
-        height: 480px;
     }
 
     .container-fluid {
@@ -344,7 +339,7 @@ p {
         margin-bottom:-200;
         padding:0;
         background-image: url('/assets/images/rl-background.jpg');
-        background-repeat: no-repeat;
+        background-size: cover;
         color: #fff;
         overflow-y: scroll;
         overflow-x: hidden;

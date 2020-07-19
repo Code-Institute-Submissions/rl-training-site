@@ -161,6 +161,10 @@ Container sizing:
 https://stackoverflow.com/questions/41174380/how-do-i-make-a-container-fill-the-whole-page-also-to-be-responsive
 - Added to HTML and BODY element.
 
+Stretching the background to always fit the body element:
+https://www.tutorialrepublic.com/faq/how-to-stretch-and-scale-an-image-in-the-background-with-css.php
+- In use in the Body element. 
+
 (Youtube) Create Center Navigation Bar Menu Using CSS Easy Tutorial:
 https://www.youtube.com/watch?v=HwXN4fiCxno
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
