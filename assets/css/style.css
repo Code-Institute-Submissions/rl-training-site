@@ -10,7 +10,7 @@ body {
     min-width: 100vw;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.png");
     background-size: cover;
     color: #fafafa;
     overflow-y: scroll;
@@ -201,7 +201,7 @@ p {
     body {
     margin:0;
     padding:0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.png");
     background-size: cover;
     color: #fff;
     overflow-y: scroll;
@@ -267,7 +267,7 @@ p {
     body {
     margin:0;
     padding:0;
-    background-image:url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.jpg");
+    background-image:url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.png");
     background-size: cover;
     color: #fff;
     overflow-y: scroll;
@@ -334,7 +334,7 @@ p {
         width: 1024px;
         margin-bottom:-200px;
         padding:0px;
-        background-image: url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.jpg");
+        background-image: url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.png");
         background-size: cover;
         color: #fff;
         overflow-y: scroll;
