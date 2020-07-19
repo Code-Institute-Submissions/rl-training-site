@@ -470,8 +470,10 @@ p {
     }
 
     .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
 
     .separator {
