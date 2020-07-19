@@ -165,6 +165,10 @@ Stretching the background to always fit the body element:
 https://www.tutorialrepublic.com/faq/how-to-stretch-and-scale-an-image-in-the-background-with-css.php
 - In use in the Body element. 
 
+No background image displayed on github pages:
+https://stackoverflow.com/questions/41607049/background-images-not-showing-on-github-pages-for-website
+- In use under background image
+
 (Youtube) Create Center Navigation Bar Menu Using CSS Easy Tutorial:
 https://www.youtube.com/watch?v=HwXN4fiCxno
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
