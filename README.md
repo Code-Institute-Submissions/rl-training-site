@@ -1,7 +1,7 @@
 Title: 
 Rocket League Trainer
 
-Background: 
+Background:
 The idea behind this first project was to get a better understanding of HTML, CSS and various other features taught by Code Insitute. 
 I invested a lot of time and effort tracking the current meta, looking for training packs, finding tutorial videos and could not find a site like mine. 
 This project is for those in the same situation as myself, who wish to improve but simply without the unnecessary hassle.
@@ -46,37 +46,26 @@ Existing Features:
 Technologies used to create this website:
 - HTML5 https://en.wikipedia.org/wiki/HTML5
 	- Building the basic structure of the website, the very core of the site.
-	
 - CSS3  https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 	- Styling the website in conjunction with Bootstrap.
-	
 - Bootstrap 4 https://getbootstrap.com/
 	- Assisted in creating the grid system of the website, the form and the submission element.
-	
 - Google https://google.com
 	- To research, troubleshoot and investigate bugs with the website. 
-	
 - StackOverflow https://stackoverflow.com
 	- Glanced at other peoples problems and how they solved their issues.
-	
 - Notepad++ https://notepad-plus-plus.org/
 	- Using a client sided text editor for creating the readme and certain code snippets.
-	
 - GitHub https://github.com/
 	- Used for deplying, updating, sharing and maintaining the website.
-	
 - GitPod IDE https://gitpod.io/
 	- Could not have developed the website without Gitpod. 
-	
 - Chrome https://www.google.com/chrome/
 	- Tested various situations by emulating the devices needed to make compatibility. 
-	
 - iPhone 7 https://www.apple.com/
 	- Tested the mobile website for bugs. 
-	
 - Windows 10 https://www.microsoft.com/nl-nl/software-download/windows10
 	- The OS responsible for running each tool. 
-	
 - Code Institute Training and Study Materials https://courses.codeinstitute.net/
 	- Learning by doing and doing while learning.
 
@@ -112,31 +101,31 @@ Credits:
 Content Ive used from my search history, and not in any particular order.
 (Disclaimer: Not all links have been written down, as some was on my work PC and I could not find them again.)
 
-Darken image: 
+Darken image:
 https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.
 - Background image in the Body and some text elements. 
 
-Centered buttons: 
+Centered buttons:
 https://stackoverflow.com/questions/22578853/how-to-center-buttons-in-twitter-bootstrap-3
 - The Navbar and submit button were giving me some problems to begin with.
 
-Embedded iframe didnt connect: 
+Embedded iframe didnt connect:
 https://stackoverflow.com/questions/36337086/my-youtube-video-wont-show-in-iframe
 - iframe elements, clarified the size in an earlier version of the website. No longer in use.
 
-Rounded separator: 
+Rounded separator:
 https://www.w3schools.com/howto/howto_css_dividers.asp (Ended up not using.)
 - Used in an earlier version of the website, only on mobile. Provided a natural spacer, but ultimately removed as it didnt fit the design.
 
-Responsive iframe documentation: 
+Responsive iframe documentation:
 https://blog.theodo.com/2018/01/responsive-iframes-css-trick/
 - iframe elements, currently in use to ensure the design is responsive on "all" reasonable mobile devices. 280px and up.
 
-Understanding media min/max width: 
+Understanding media min/max width:
 https://stackoverflow.com/questions/13550541/media-min-width-max-width
 - In use at the end of the CSS stylesheet, figuring out how to avoid bugs with bootstrap once a min-width has been declared.
 
-Aspect ratio calculator: 
+Aspect ratio calculator:
 https://calculateaspectratio.com/
 - iframe elements, ensuring the size fits each @media size. 
 
@@ -144,11 +133,11 @@ Centered Navbar:
 https://www.websitecodetutorials.com/code/css/css-center-nav.php
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
-Fixed top Navbar: 
+Fixed top Navbar:
 https://www.w3schools.com/howto/howto_css_fixed_menu.asp
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
 
-Center content in responsive bootstrap navbar: 
+Center content in responsive bootstrap navbar:
 https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
 
