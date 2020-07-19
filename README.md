@@ -1,19 +1,18 @@
-Title: 
-Rocket League Trainer
+#Rocket League Trainer
 
-Background:
+##Background:
 The idea behind this first project was to get a better understanding of HTML, CSS and various other features taught by Code Insitute. 
 I invested a lot of time and effort tracking the current meta, looking for training packs, finding tutorial videos and could not find a site like mine. 
 This project is for those in the same situation as myself, who wish to improve but simply without the unnecessary hassle.
 
 
-UX and design choices:
+##UX and design choices:
 When choosing this design it was meant to be simple, self explanatory and loading quickly on any device. 
 In other words, an easy way to access the material players would need, but without the clutter seen on other sites. 
 The color-scheme is intended to be darker, so it wont interfere too much when having late night training sessions.
 
 
-User Stories:
+##User Stories:
 1. "As a new player, I wish to see current meta videos and material, so I can gain an edge over my current level opponents."
 2. "As an experienced player, I wish for a list of meta-accurate training packs, so I can copy and add them to my in-game favorites list."
 3. "As any player, I wish to have the ability to submit training packs that could be useful to others."
@@ -27,7 +26,7 @@ index.html | [index](https://github.com/isitaslinky/rl-training-site/blob/master
 training.html | [training](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/training_pack.png)
 submit.html | [submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
 
-Features:
+##Features:
 1. Video Showcase
 	- 4 videos describing what I think is the most current meta of what should be taught.
 	- Short description of how to train and maintain, involving links to both the content creator and the suggested training method.
@@ -40,14 +39,14 @@ Features:
 	- A form where the users can submit what they think is a necessary pack at any given moment to be featured.
 	- I didn't finish this in time, but the plan is to make a database with identical submissions and make a queue of the most submitted training packs.
 	
-Existing Features:
+##Existing Features:
 1. Navbar
 	- Came with bootstrap 4, allows us to easily access and navigate the website.
 2. Overall grid-system was used from bootstrap 4, then modified to fit the various mobile sizes.  
 3. iframes, Youtube allows us to right click any playing video and copy an embed link.
 
 
-Technologies used to create this website:
+##Technologies used to create this website:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Building the basic structure of the website, the very core of the site.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Styling the website in conjunction with Bootstrap.
 - [Bootstrap 4](https://getbootstrap.com/) - Assisted in creating the grid system of the website, the table and the submission element.
@@ -62,7 +61,7 @@ Technologies used to create this website:
 - [Code Institute Training and Study Materials](https://courses.codeinstitute.net/) - Learning by doing and doing while learning.
 
 
-Testing:
+##Testing:
 1. Tested using various mobile emulators on my Windows Machine.
 2. Tested on mobile to ensure the links, layout and scaling works as intended.
 3. Tested using responsive design in the browser on most used breakpoints. 
@@ -76,20 +75,20 @@ Testing:
 6. Ran an online [responsiveness tester](https://responsivedesignchecker.com/).
     - Result: [submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
 
-What I would like to work on in the future:
+##What I would like to work on in the future:
 - Contact form
 I was unfortunately out of time when working my way through adding a server which the form could submit to.
 This is a feature I wish to implement in the future. 
 
 
-Bugs and their resolution:
+##Bugs and their resolution:
 1. 	When swapping between 280px and 720px width, the gridsystem provided by bootstrap would overlap with eachother. This was solved by adding padding to each element as a workaround, I still need more experience with Bootstrap.
 2. 	The background resolution would continue to decrease itself when switching from one mobile to another mobile emulation repeatedly in Chrome. It did not resolve itself until I cleared my browser cache!
 3. 	The embedded iframe elements would not size according to the Div element it was wrapped in, found a scalable solution which allowed for responsive sizing when specified.
 4. 	When adding a darker tint to the background, it interfered with everything else. Did some research on how to apply it directly to the background itself, instead of using a div with a separate class added to it.
 
 
-Deployment:
+##Deployment:
 Ensured all tools were installed, this includes:
 1. Using the GitPod IDE plugin for Chrome.
 2. Installed Notepad++ to keep a local copy.
@@ -99,7 +98,7 @@ Ensured all tools were installed, this includes:
 6. Hosting the website on GitHub Pages.
 
 
-Credits:
+##Credits:
 Content Ive used from my search history, and not in any particular order.
 (Disclaimer: Not all links have been written down, as some was on my work PC and I could not find them again.)
 
@@ -180,7 +179,7 @@ https://www.youtube.com/watch?v=PwWHL3RyQgk
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
 
-Media:
+##Media:
 Background (4000x2000px)
 Downloaded from: https://www.jakpost.travel/wimages/large/238-2389378_rocket-league-draco-grey.jpg
 
@@ -205,7 +204,7 @@ Gamersrdy:
 https://www.gamersrdy.com/rocket-league-training-packs/
 Another training site I used to look at, but also rarely gets updated.
 
-Acknowledgements:
+##Acknowledgements:
 The CI student care team and my fellow students, for being available around the clock.
 My two cats, for providing me with stress relieving cuddles. 
 My Mentor Precious Ijege, for providing me with guidance and direction.
@@ -213,5 +212,5 @@ My girlfriend Carmen, for human trials.
 Special Thanks to Psyonix, for providing a game I have been able to play for the last 4 years without wanting to play anything else. 
 
 
-Final Disclaimer:
+##Final Disclaimer:
 No money will be made on this site, it is purely for the sake of improving my own skill and helping to improve others as well.
