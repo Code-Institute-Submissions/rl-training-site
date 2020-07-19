@@ -23,9 +23,9 @@ I had one mock-up design in mind at first, overall I stuck to my original idea a
 
 Page | Link
 ------------ | -------------
-index.html | [index](https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/index.png)
-training.html | [training](https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/training_pack.png)
-submit.html | [submit](https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/submit.png)
+index.html | [index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/index.png)
+training.html | [training](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/training_pack.png)
+submit.html | [submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
 
 Features:
 1. Video Showcase
@@ -67,12 +67,17 @@ Testing:
 2. Tested on mobile to ensure the links, layout and scaling works as intended.
 3. Tested using responsive design in the browser on most used breakpoints. 
 4. Had friends and family test the website on their devices and received design feedback.
-6. Ran the [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
-7. Ran the [HTML Validator](https://validator.w3.org/#validate_by_input).
+6. Ran a [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+    - Result: [CSS](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/css_w3_pass.png)
+7. Ran a [HTML Validator](https://validator.w3.org/#validate_by_input).
+    - Results:   [Index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_index.png)
+                [Training Pack](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_training_pack.png)
+                [Submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_submit.png)
 6. Ran an online [responsiveness tester](https://responsivedesignchecker.com/).
+    - Result: [submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
 
-
-Contact form:
+What I would like to work on in the future:
+- Contact form
 I was unfortunately out of time when working my way through adding a server which the form could submit to.
 This is a feature I wish to implement in the future. 
 

@@ -149,7 +149,7 @@ p {
     border: 1px solid black;
 }
 
-@media (min-width: 280px) and (max-device-width: 280px) {
+@media (min-width: 280px) {
     body {
         min-width: 280px;
         background-size: cover;
@@ -166,11 +166,10 @@ p {
 
     .text-padding {
         height: 150px;
-        text-transform: inline;
         padding: 10px 10px 10px 10px;
     }
 
-@media (min-width: 375px) and (max-device-width: 375px) {
+@media (min-width: 375px) {
 
     iframe {
     padding-left: 0px;
@@ -180,11 +179,10 @@ p {
 
 
 
-@media (min-width: 720px) and (max-device-width: 759px) {
+@media (min-width: 720px) {
 
     .text-padding {
         height: 150px;
-        text-transform: inline;
         padding: 10px 10px 10px 10px;
     }
     
@@ -233,7 +231,7 @@ p {
     }
 
     .footer {
-        position: bottom;
+        position: inherit;
         min-width: 375px;
     }
 
@@ -247,11 +245,10 @@ p {
 }
 
 
-@media (min-width: 768px) and (max-device-width: 800px) {
+@media (min-width: 768px) {
 
     .text-padding {
         height: 150px;
-        text-transform: inline;
         padding: 10px 10px 10px 10px;
     }
     
@@ -300,7 +297,7 @@ p {
     }
 
     .footer {
-        position: bottom;
+        position: inherit;
         min-width: 375px;
     }
 
@@ -313,14 +310,13 @@ p {
 
 }
 
-@media screen and (min-device-width: 1000px) and (max-device-width: 1024px) {
-    
+@media screen and (min-width: 992px) {
+
     .text-padding {
         height: 150px;
-        text-transform: inline;
         padding: 10px 10px 10px 10px;
     }
-    
+
     iframe {
         padding-left: 0px;
     }
@@ -336,8 +332,8 @@ p {
 
     body {
         width: 1024px;
-        margin-bottom:-200;
-        padding:0;
+        margin-bottom:-200px;
+        padding:0px;
         background-image: url("https://github.com/isitaslinky/rl-training-site/tree/master/assets/images/rl-background.jpg");
         background-size: cover;
         color: #fff;
@@ -356,8 +352,8 @@ p {
     }
 
     .link-style-footer {
-    text-decoration: none;
-    color: #fff;
+        text-decoration: none;
+        color: #fff;
     }
 
     .link-style-footer:hover {
@@ -370,5 +366,5 @@ p {
     .footer {
         min-width: 375px;
     }
-    
+}
 }
