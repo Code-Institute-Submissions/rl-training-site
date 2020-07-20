@@ -165,23 +165,23 @@ Content Ive used from my search history, and not in any particular order.
 
 ## Media:
 Background (4000x2000px)
-[Download location:](https://www.jakpost.travel/wimages/large/238-2389378_rocket-league-draco-grey.jpg)
+[Direct Link](https://www.jakpost.travel/wimages/large/238-2389378_rocket-league-draco-grey.jpg)
 
 Various content creators on youtube:
-[Gpepper](https://www.youtube.com/channel/UC-d1NAX6MeEYgwMkd6TMEyg)
-[FusioNine](https://www.youtube.com/channel/UCOT7Vqfqb2oFl_mMBhDQRVA)
-[Snap10a](https://www.youtube.com/channel/UCUCnQu9TR7qEqa52PF7Djaw)
-[SubParButInHD](https://www.youtube.com/channel/UCOw0zA-Gf5gpQ6K446mR0wA)
+- [Gpepper](https://www.youtube.com/channel/UC-d1NAX6MeEYgwMkd6TMEyg)
+- [FusioNine](https://www.youtube.com/channel/UCOT7Vqfqb2oFl_mMBhDQRVA)
+- [Snap10a](https://www.youtube.com/channel/UCUCnQu9TR7qEqa52PF7Djaw)
+- [SubParButInHD](https://www.youtube.com/channel/UCOw0zA-Gf5gpQ6K446mR0wA)
 
-[Bakkesmod (A Rocket League plugin):](https://www.bakkesmod.com/)
+[Bakkesmod (A Rocket League plugin)](https://www.bakkesmod.com/)
 
 Sites for inspiration:
-[Rocket League (psyonix):](https://www.rocketleague.com/)
+[Rocket League (psyonix)](https://www.rocketleague.com/)
 
-[Rocket Garage:](https://rocket-league.com/training)
+[Rocket Garage](https://rocket-league.com/training)
 One training site I used to look at, rarely gets updated.
 
-[Gamersrdy:](https://www.gamersrdy.com/rocket-league-training-packs/)
+[Gamersrdy](https://www.gamersrdy.com/rocket-league-training-packs/)
 Another training site I used to look at, but also rarely gets updated.
 
 ## Acknowledgements:
