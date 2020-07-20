@@ -251,10 +251,6 @@ p {
         height: 150px;
         padding: 10px 10px 10px 10px;
     }
-    
-    .embed-responsive-item {
-        padding-left: 200px;
-    }
 
     .blackground-light {  
         background: rgba(0, 0, 0, 0);
@@ -332,7 +328,6 @@ p {
 
     body {
         width: 1024px;
-        margin-bottom:-200px;
         padding:0px;
         background-image: url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
         background-size: cover;
