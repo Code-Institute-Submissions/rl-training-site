@@ -10,8 +10,6 @@ body {
     min-width: 100vw;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-    background-size: cover;
     color: #fafafa;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -29,11 +27,6 @@ body {
     display: none;
 }
 
-.row {
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
 .justify-content-center {
     padding-top: 25px;
     padding-bottom: 0;
@@ -41,6 +34,15 @@ body {
 
 
 /* NAVBAR */
+
+header {
+    height: 60px;
+}
+
+.navbar {
+    background: black;
+    padding-bottom: 5px;
+}
 
 .active {
     text-decoration: none;
@@ -54,7 +56,9 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
     color: rgb(243, 243, 243);
     text-align: center;
     padding-bottom: 15px;
@@ -64,6 +68,21 @@ body {
 .footer p {
     font-size: 10px;
     width: 100%;
+    
+}
+
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    margin-bottom: -50px;
+}
+
+.push {
+    height: 80px;
 }
 
 /* VIDEO STYLING */
@@ -153,7 +172,7 @@ p {
     body {
         min-height: 100vh;
         min-width: 100vw;
-        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
     }
 
     .container-fluid {
@@ -204,8 +223,6 @@ p {
         min-width: 100vw;
         margin:0;
         padding:0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-        background-size: cover;
         color: #fff;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -235,7 +252,7 @@ p {
 
     .footer {
         position: inherit;
-        min-width: 375px;
+        min-width: 100vw;
     }
 
     .separator {
@@ -268,8 +285,6 @@ p {
         min-width: 100vw;
         margin:0;
         padding:0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-        background-size: cover;
         color: #fff;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -299,7 +314,7 @@ p {
 
     .footer {
         position: inherit;
-        min-width: 375px;
+        min-width: 100vw;
     }
 
     .separator {
@@ -335,8 +350,6 @@ p {
         min-height: 100vh;
         min-width: 100vw;
         padding:0px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-        background-size: cover;
         color: #fff;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -365,7 +378,7 @@ p {
     }
 
     .footer {
-        min-width: 375px;
+        min-width: 100vw;
     }
 }
 }

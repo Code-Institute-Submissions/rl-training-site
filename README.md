@@ -160,6 +160,8 @@ No background image displayed on github pages:https://stackoverflow.com/question
 (Youtube) Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox:https://www.youtube.com/watch?v=PwWHL3RyQgk
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
+Sticky footer:https://css-tricks.com/couple-takes-sticky-footer/
+- Used in the Footer section of the CSS file. 
 
 ## Media:
 Background (4000x2000px)
