@@ -101,66 +101,66 @@ Ensured all tools were installed, this includes:
 
 ## Credits:
 Content Ive used from my search history, and not in any particular order.
-(Disclaimer: Not all links have been written down, as some was on my work PC and I could not find them again.)
+(Disclaimer: Not all links have been noted down, as some was found on my work PC and I could not find them again when making this.)
 
-Darken image:https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.
+[Darken image:](https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.)
 - Background image in the Body and some text elements. 
 
-Centered buttons:https://stackoverflow.com/questions/22578853/how-to-center-buttons-in-twitter-bootstrap-3
+[Centered buttons:](https://stackoverflow.com/questions/22578853/how-to-center-buttons-in-twitter-bootstrap-3)
 - The Navbar and submit button were giving me some problems to begin with.
 
-Embedded iframe didnt connect:https://stackoverflow.com/questions/36337086/my-youtube-video-wont-show-in-iframe
+[Embedded iframe didnt connect:](https://stackoverflow.com/questions/36337086/my-youtube-video-wont-show-in-iframe)
 - iframe elements, clarified the size in an earlier version of the website. No longer in use.
 
-Rounded separator:https://www.w3schools.com/howto/howto_css_dividers.asp (Ended up not using.)
-- Used in an earlier version of the website, only on mobile. Provided a natural spacer, but ultimately removed as it didnt fit the design.
+[Rounded separator:](https://www.w3schools.com/howto/howto_css_dividers.asp)
+- Used in an earlier version of the website, but ultimately removed as it didnt fit the design.
 
-Responsive iframe documentation:https://blog.theodo.com/2018/01/responsive-iframes-css-trick/
+[Responsive iframe documentation:](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/)
 - iframe elements, currently in use to ensure the design is responsive on "all" reasonable mobile devices. 280px and up.
 
-Embed respobsive:https://getbootstrap.com/docs/4.0/utilities/embed/
+[Embed respobsive:](https://getbootstrap.com/docs/4.0/utilities/embed/)
 - iframe elements, currently in use as part of the responsive design.
 
-Understanding media min/max width:https://stackoverflow.com/questions/13550541/media-min-width-max-width
+[Understanding media min/max width:](https://stackoverflow.com/questions/13550541/media-min-width-max-width)
 - In use at the end of the CSS stylesheet, figuring out how to avoid bugs with bootstrap once a min-width has been declared.
 
-Aspect ratio calculator:https://calculateaspectratio.com/
+[Aspect ratio calculator:](https://calculateaspectratio.com/)
 - iframe elements, ensuring the size fits each @media size. 
 
-Centered Navbar:https://www.websitecodetutorials.com/code/css/css-center-nav.php
+[Centered Navbar:](https://www.websitecodetutorials.com/code/css/css-center-nav.php)
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
-Fixed top Navbar:https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+[Fixed top Navbar:](https://www.w3schools.com/howto/howto_css_fixed_menu.asp)
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
 
-Center content in responsive bootstrap navbar:https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar
+[Center content in responsive bootstrap navbar:](https://stackoverflow.com/questions/18777235/center-content-in-responsive-bootstrap-navbar)
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
 
-Bootstrap submission forms:https://getbootstrap.com/docs/4.0/components/forms/
+[Bootstrap submission forms:](https://getbootstrap.com/docs/4.0/components/forms/)
 - The overall skeleton is used as a baseplate in submit.html, minimal parts have been changed to accomodate my needs.
 
-Bootstrap table:https://getbootstrap.com/docs/4.0/content/tables/
+[Bootstrap table:](https://getbootstrap.com/docs/4.0/content/tables/)
 - In use in training.html, only a class from the background has been added on every second row to make them easier on the eyes.
 
-Bootstrap toggle menu:https://getbootstrap.com/docs/4.0/components/navbar/
+[Bootstrap toggle menu:](https://getbootstrap.com/docs/4.0/components/navbar/)
 - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally.
 
-Container sizing:https://stackoverflow.com/questions/41174380/how-do-i-make-a-container-fill-the-whole-page-also-to-be-responsive
+[Container sizing:](https://stackoverflow.com/questions/41174380/how-do-i-make-a-container-fill-the-whole-page-also-to-be-responsive)
 - Added to HTML and BODY element.
 
-Stretching the background to always fit the body element:https://www.tutorialrepublic.com/faq/how-to-stretch-and-scale-an-image-in-the-background-with-css.php
+[Stretching the background to always fit the body element:](https://www.tutorialrepublic.com/faq/how-to-stretch-and-scale-an-image-in-the-background-with-css.php)
 - In use in the Body element. 
 
-No background image displayed on github pages:https://stackoverflow.com/questions/41607049/background-images-not-showing-on-github-pages-for-website
+[No background image displayed on github pages:](https://stackoverflow.com/questions/41607049/background-images-not-showing-on-github-pages-for-website)
 - In use under background image
 
-(Youtube) Create Center Navigation Bar Menu Using CSS Easy Tutorial:https://www.youtube.com/watch?v=HwXN4fiCxno
+[(Youtube) Create Center Navigation Bar Menu Using CSS Easy Tutorial:](https://www.youtube.com/watch?v=HwXN4fiCxno)
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
-(Youtube) Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox:https://www.youtube.com/watch?v=PwWHL3RyQgk
+[(Youtube) Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox:](https://www.youtube.com/watch?v=PwWHL3RyQgk)
 - Used in an earlier version of the website, initially scrapped it and replaced it with one from bootstrap. 
 
-Sticky footer:https://css-tricks.com/couple-takes-sticky-footer/
+[Sticky footer:](https://css-tricks.com/couple-takes-sticky-footer/)
 - Used in the Footer section of the CSS file. 
 
 ## Media:
