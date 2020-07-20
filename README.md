@@ -69,9 +69,12 @@ submit.html | [submit](https://github.com/isitaslinky/rl-training-site/blob/mast
 6. Ran a [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
     - Result: [CSS](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/css_w3_pass.png)
 7. Ran a [HTML Validator](https://validator.w3.org/#validate_by_input).
-    - Results:[Index - Pass](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_index.png) - [Training Pack - Pass](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_training_pack.png) - [Submit - Pass](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_submit.png)
+    - Results:
+    - [Index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_index.png)
+    - [Training Pack](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_training_pack.png)
+    - [Submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_submit.png)
 6. Ran an online [responsiveness tester](http://ami.responsivedesign.is/#).
-    - Result: [Pass](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/amiresponsive.png)
+    - Result: [Amiresponsive?](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/amiresponsive.png)
 
 ## What I would like to work on in the future:
 - Contact form
