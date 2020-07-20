@@ -151,7 +151,8 @@ p {
 
 @media (min-width: 280px) {
     body {
-        min-width: 280px;
+        min-height: 100vh;
+        min-width: 100vw;
         background-size: cover;
     }
 
@@ -199,13 +200,15 @@ p {
     }
 
     body {
-    margin:0;
-    padding:0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-    background-size: cover;
-    color: #fff;
-    overflow-y: scroll;
-    overflow-x: hidden;
+        min-height: 100vh;
+        min-width: 100vw;
+        margin:0;
+        padding:0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
+        background-size: cover;
+        color: #fff;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     h3 {
@@ -261,13 +264,15 @@ p {
     }
 
     body {
-    margin:0;
-    padding:0;
-    background-image:url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-    background-size: cover;
-    color: #fff;
-    overflow-y: scroll;
-    overflow-x: hidden;
+        min-height: 100vh;
+        min-width: 100vw;
+        margin:0;
+        padding:0;
+        background-image:url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
+        background-size: cover;
+        color: #fff;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     h3 {
@@ -327,9 +332,10 @@ p {
     }
 
     body {
-        width: 1024px;
+        min-height: 100vh;
+        min-width: 100vw;
         padding:0px;
-        background-image: url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
         background-size: cover;
         color: #fff;
         overflow-y: scroll;
