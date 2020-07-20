@@ -58,7 +58,7 @@ header {
     bottom: 0;
     width: 100vw;
     height: 40px;
-    background-color: black;
+    background: black;
     color: rgb(243, 243, 243);
     text-align: center;
     padding-bottom: 15px;
@@ -172,8 +172,14 @@ p {
     body {
         min-height: 100vh;
         min-width: 100vw;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/isitaslinky/rl-training-site/master/assets/images/rl-background.png");
-        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    img {
+        position: fixed;
+        z-index: 0;
+        overflow: scroll;
+        filter: brightness(50%);
     }
 
     .container-fluid {
@@ -209,14 +215,6 @@ p {
     
     iframe {
         padding-left: 0px;
-    }
-
-    .blackground-light {  
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .blackground-dark {
-        background: rgba(0, 0, 0, 0);
     }
 
     body {
@@ -271,14 +269,6 @@ p {
     .text-padding {
         height: 150px;
         padding: 10px 10px 10px 10px;
-    }
-
-    .blackground-light {  
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .blackground-dark {
-        background: rgba(0, 0, 0, 0.6);
     }
 
     body {
@@ -341,10 +331,6 @@ p {
     .container-fluid {
         padding-bottom: 0px;
         text-align: left;
-    }
-
-    .blackground-dark {
-        background: rgba(0, 0, 0, 0.6);
     }
 
     body {
