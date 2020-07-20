@@ -176,13 +176,9 @@ Various content creators on youtube:
 [Bakkesmod (A Rocket League plugin)](https://www.bakkesmod.com/)
 
 Sites for inspiration:
-[Rocket League (psyonix)](https://www.rocketleague.com/)
-
-[Rocket Garage](https://rocket-league.com/training)
-One training site I used to look at, rarely gets updated.
-
-[Gamersrdy](https://www.gamersrdy.com/rocket-league-training-packs/)
-Another training site I used to look at, but also rarely gets updated.
+- [Rocket League (psyonix)](https://www.rocketleague.com/)
+- [Rocket Garage](https://rocket-league.com/training) One training site I used to look at, rarely gets updated.
+- [Gamersrdy](https://www.gamersrdy.com/rocket-league-training-packs/) Another training site I used to look at, but also rarely gets updated.
 
 ## Acknowledgements:
 The CI student care team and my fellow students, for being available around the clock.
